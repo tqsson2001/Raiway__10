@@ -1,5 +1,3 @@
-
-import java.sql.Time;
 import java.util.Date;
 
 public class Main {
@@ -52,7 +50,7 @@ public class Main {
 		account1.fullName			= "dangblack";
 		account1.department			= department5 ;
 		account1.position			= position1 ;
-		account1.createDate			= new Date("2020-03-05");
+		account1.createDate			= new Date ("2020/03/05");
 		
 		
 		Account account2			= new Account() ;
@@ -62,7 +60,7 @@ public class Main {
 		account2.fullName			= "quanganh";
 		account2.department			= department1 ;
 		account2.position			= position3 ;
-		account2.createDate			= new Date("2020-03-05");
+		account2.createDate			= new Date("2020/03/05");
 		
 		
 		Account account3			= new Account() ;
@@ -72,7 +70,7 @@ public class Main {
 		account3.fullName			= "vanchien";
 		account3.department			= department1 ;
 		account3.position			= position3 ;
-		account3.createDate			= new Date("2020-03-07");
+		account3.createDate			= new Date("2020/03/07");
 		
 		
 		Account account4			= new Account() ;
@@ -82,7 +80,7 @@ public class Main {
 		account4.fullName			="cocoduongqua";
 		account4.department			= department3 ;
 		account4.position			= position4 ;
-		account4.createDate			= new Date("2020-08-03");
+		account4.createDate			= new Date("2020/08/03");
 		
 		
 		Account account5			= new Account() ;
@@ -92,14 +90,14 @@ public class Main {
 		account5.fullName			="doccocaubai";
 		account5.department			= department3 ;
 		account5.position			= position4 ;
-		account5.createDate			= new Date("2020-03-10");
+		account5.createDate			= new Date("2020/03/10");
 
 // create Group
 		Group group1				= new Group() ;
 		group1.id					= 1 ;
 		group1.name					="Testing System";
 		group1.account				= account5;
-		group1.date					= new Date ("2019-03-05");
+		group1.date					= new Date ("2019/03/05");
 		Account[] GroupAccount		= { account1 , account2 };
 		group1.accounts				= GroupAccount ;
 		
@@ -108,14 +106,14 @@ public class Main {
 		group2.id					= 2 ;
 		group2.name					="VTI Development";
 		group2.account				= account5;
-		group2.date					= new Date ("2020-03-07");
+		group2.date					= new Date ("2020/03/07");
 		
 		
 		Group group3				= new Group() ;
 		group3.id					= 3 ;
 		group3.name					="VTI Sale01";
 		group3.account				= account4;
-		group3.date					= new Date ("2020-03-09");
+		group3.date					= new Date ("2020/03/09");
 		Account[] GroupAccount1		= { account3 , account4  } ;
 		group3.accounts				= GroupAccount1 ;
 		
@@ -123,14 +121,14 @@ public class Main {
 		group4.id					= 4 ;
 		group4.name					="VTI Sale02";
 		group4.account				= account4;
-		group4.date					= new Date ("2020-03-10");
+		group4.date					= new Date ("2020/03/10");
 		
 		
 		Group group5				= new Group() ;
 		group5.id					= 5 ;
 		group5.name					="VTI Sale03";
 		group5.account				= account1;
-		group5.date					= new Date ("2020-03-28");
+		group5.date					= new Date ("2020/03/28");
 		Account[] GroupAccount2		= { account4 , account5  } ;
 		group5.accounts				= GroupAccount2;
 
@@ -149,31 +147,31 @@ public class Main {
 		Question question1 		= new Question() ;
 		question1.id			= 1 ;
 		question1.Content		="Câu hỏi về Java";
-		question1.creatorDate	= new Date ("2020-04-05");
+		question1.creatorDate	= new Date ("2020/04/05");
 		
 		
 		Question question2 		= new Question() ;
 		question2.id			= 2 ;
 		question2.Content		="Câu Hỏi về PHP";
-		question2.creatorDate	= new Date ("2020-04-05");
+		question2.creatorDate	= new Date ("2020/04/05");
 		
 		
 		Question question3 		= new Question() ;
 		question3.id			= 3 ;
 		question3.Content		="Hỏi về C#";
-		question3.creatorDate	= new Date ("2020-04-06");
+		question3.creatorDate	= new Date ("2020/04/06");
 		
 		
 		Question question4 		= new Question() ;
 		question4.id			= 4 ;
 		question4.Content		="Hỏi về Ruby";
-		question4.creatorDate	= new Date ("2020-04-06");
+		question4.creatorDate	= new Date ("2020/04/06");
 
 		
 		Question question5 		= new Question() ;
 		question5.id			= 5 ;
 		question5.Content		="Hỏi về Postman";
-		question5.creatorDate	= new Date ("2020-04-06");
+		question5.creatorDate	= new Date ("2020/04/06");
 		
 // create CategoryQuestion
 		CategoryQuestion categoryquestion1 	= new CategoryQuestion() ;
@@ -237,40 +235,35 @@ public class Main {
 		exam1.id				= 1;
 		exam1.code				= "VTIQ001";
 		exam1.title				= "Đề thi C#";
-		exam1.duration			= Time ("60") ;
-		exam1.createDate		= new Date("2019-04-05");		
+		exam1.createDate		= new Date("2019/04/05");		
 		
 		
 		Exam exam2				= new Exam() ;
 		exam2.id				= 2;
 		exam2.code				= "VTIQ002";
 		exam2.title				= "Đề thi PHP";
-		exam2.duration			= Time ("60") ;
-		exam2.createDate		= new Date("2019-04-05");		
+		exam2.createDate		= new Date("2019/04/05");		
 		
 		
 		Exam exam3				= new Exam() ;
 		exam3.id				= 3;
 		exam3.code				= "VTIQ003";
 		exam3.title				= "Đề thi C++";
-		exam3.duration			= Time ("120") ;
-		exam3.createDate		= new Date("2019-04-07");		
+		exam3.createDate		= new Date("2019/04/07");		
 		
 		
 		Exam exam4				= new Exam() ;
 		exam4.id				= 4;
 		exam4.code				= "VTIQ004";
-		exam4.title				= "Đề thi Java";
-		exam4.duration			= Time ("60") ;
-		exam4.createDate		= new Date("2019-04-08");		
+		exam4.title				= "Đề thi Java";;
+		exam4.createDate		= new Date("2019/04/08");		
 		
 		
 		Exam exam5				= new Exam() ;
 		exam5.id				= 5;
 		exam5.code				= "VTIQ005";
 		exam5.title				= "Đề thi Ruby";
-		exam5.duration			= Time ("120") ;
-		exam5.createDate		= new Date("2019-04-10");	
+		exam5.createDate		= new Date("2019/04/10");	
 		
 // 	ExamQuestion	
         Exam[] ExamQuestion 	= { exam2 , exam3 , exam4   } ;
@@ -278,14 +271,38 @@ public class Main {
         	
         Exam[] ExamQuestion1	= { exam1 , exam5    } ;
         question5.exams			= ExamQuestion1 ;
-				
+        
+		System.out.println("Thông tin phòng ban 1 ");
+        System.out.println("name : " + department1.name);
+        System.out.println("ID : " + department1.id);
+        System.out.println("\n");
+        
+        System.out.println("Thông tin phòng ban 2 ");
+        System.out.println("name : " + department2.name);
+        System.out.println("ID : " + department2.id);
+        System.out.println("\n");
+        
+        System.out.println("Thông tin account 1");
+        System.out.println("id :" 		+ account1.id);
+        System.out.println("Email :" 	+ account1.email );
+        System.out.println("UserName :" + account1.userName);
+        System.out.println("FullName :" + account1.fullName);
+        System.out.println("Department Name :" + account1.department.name);
+        System.out.println("Position Name :" + account1.position.name);
+        System.out.println("Date :" + account1.createDate);
+        System.out.println("\n");
+        
+        System.out.println("Thông tin account 3");
+        System.out.println("id :" 		+ account3.id);
+        System.out.println("Email :" 	+ account3.email );
+        System.out.println("UserName :" + account3.userName);
+        System.out.println("FullName :" + account3.fullName);
+        System.out.println("Department Name :" + account3.department.name);
+        System.out.println("Position Name :" + account3.position.name);
+        System.out.println("Date :" + account3.createDate);
 	}
-
-	private static Time Time(String string) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
+	 
+	
 	
 	
 	
