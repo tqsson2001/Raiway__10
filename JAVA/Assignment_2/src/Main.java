@@ -1,11 +1,10 @@
 import java.util.Date;
 
 public class Main {
-	
-//	enum Enum { DEV , Test , Scrum_Master , PM  }
+//	enum Enum { DEV , Test , Scrum_Master , PM  }	
 	
 	public static void main(String[] args) {
-
+						
 // create Department		
 		Department department1 		= new Department() ;
 		department1.id 				= 1;
@@ -34,10 +33,10 @@ public class Main {
 //		Enum B = Enum.Test;
 //		Enum C = Enum.Scrum_Master;
 //		Enum D = Enum.PM;
-		
+				
 		Position position1			= new Position() ;
 		position1.id 				= 1;
-		position1.name				="DEV";
+		position1.name				= "DEV" ;
 		
 		Position position2			= new Position() ;
 		position2.id 				= 2;
@@ -45,12 +44,12 @@ public class Main {
 		
 		Position position3			= new Position() ;
 		position3.id 				= 3;
-		position3.name				="Scrum_Master";
+		position3.name				="Enum.Scrum_Master";
 		
 		Position position4			= new Position() ;
 		position4.id 				= 4;
 		position4.name				="PM";
-
+		
 // create Account
 		Account account1			= new Account() ;
 		account1.id					= 1;
@@ -105,7 +104,6 @@ public class Main {
 		Group group1				= new Group() ;
 		group1.id					= 1 ;
 		group1.name					="Testing System";
-		group1.account				= account5;
 		group1.date					= new Date ("2019/03/05");
 		Account[] GroupAccount		= { account1 , account2 };
 		group1.accounts				= GroupAccount ;
@@ -121,7 +119,6 @@ public class Main {
 		Group group3				= new Group() ;
 		group3.id					= 3 ;
 		group3.name					="VTI Sale01";
-		group3.account				= account4;
 		group3.date					= new Date ("2020/03/09");
 		Account[] GroupAccount1		= { account3 , account4  } ;
 		group3.accounts				= GroupAccount1 ;
@@ -136,7 +133,6 @@ public class Main {
 		Group group5				= new Group() ;
 		group5.id					= 5 ;
 		group5.name					="VTI Sale03";
-		group5.account				= account1;
 		group5.date					= new Date ("2020/03/28");
 		Account[] GroupAccount2		= { account4 , account5  } ;
 		group5.accounts				= GroupAccount2;
@@ -155,7 +151,7 @@ public class Main {
 // create Question		
 		Question question1 		= new Question() ;
 		question1.id			= 1 ;
-		question1.Content		="Câu hỏi về Java";
+		question1.Content		="CÃ¢u há»�i vá»� Java";
 		question1.creatorDate	= new Date ("2020/04/05");
 		
 		
@@ -280,35 +276,34 @@ public class Main {
         	
         Exam[] ExamQuestion1	= { exam1 , exam5    } ;
         question5.exams			= ExamQuestion1 ;
+  
+// Exercise 1 (Optional): Flow Control
         
-		System.out.println("Thong Tin Phong Ban 1 ");
-        System.out.println("name : " + department1.name);
-        System.out.println("ID : " + department1.id);
-        System.out.println("\n");
+// Question 1 :         
+//        if (account2 == null) {System.out.println("Nhan vien nay chua co phong ban");}
+//        else {System.out.println("Phong ban cua nhan vien nay la :" + account2.department.name );}
         
-        System.out.println("Thong Tin Phong Ban 2 ");
-        System.out.println("name : " + department2.name);
-        System.out.println("ID : " + department2.id);
-        System.out.println("\n");
+// Question 2 :
+//         if (group1.accounts == null) {System.out.println("Nhom nay khong co nhan vien");}
+//         
+//         else if (group1.accounts.length == 1 || group1.accounts.length == 2)
+//         {for (Account account : GroupAccount ) {System.out.println("Tên Là :" + account.fullName);}} 
+//         
+//         else if (group1.accounts.length == 3)
+//         {System.out.println("Nhom nay rat quan trong");}
+//         
+//         else if (group1.accounts.length == 4)
+//         {System.out.println(" Nhom nay la cai cho  :)) ");}
+  
         
-        System.out.println("Thong Tin Phong Ban 1");
-        System.out.println("id :" 		+ account1.id);
-        System.out.println("Email :" 	+ account1.email );
-        System.out.println("UserName :" + account1.userName);
-        System.out.println("FullName :" + account1.fullName);
-        System.out.println("Department Name :" + account1.department.name);
-        System.out.println("Position Name :" + account1.position.name);
-        System.out.println("Date :" + account1.createDate);
-        System.out.println("\n");
+// Question 3 :
+//        	System.out.println(account2.department == null ? "Nhan vien chua co phong ban" : "Phong ban cua nhan vien nay la : " + account2.department.name);
+
         
-        System.out.println("Thong Tin Phong Ban 3");
-        System.out.println("id :" 		+ account3.id);
-        System.out.println("Email :" 	+ account3.email );
-        System.out.println("UserName :" + account3.userName);
-        System.out.println("FullName :" + account3.fullName);
-        System.out.println("Department Name :" + account3.department.name);
-        System.out.println("Position Name :" + account3.position.name);
-        System.out.println("Date :" + account3.createDate);
+// Question 4 :
+        	
+//        	System.out.println(account1.position.name == "DEV" ? "Day la Developer" : "Nguoi nay khong phai Developer");
+        
 	}	
 	
 	
