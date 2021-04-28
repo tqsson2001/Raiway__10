@@ -178,6 +178,7 @@ public class Main {
 		question5.Content		="Cau Hoi ve Postman";
 		question5.creatorDate	= new Date ("2020/04/06");
 		
+		
 // create CategoryQuestion
 		CategoryQuestion categoryquestion1 	= new CategoryQuestion() ;
 		categoryquestion1.id 				= 1;
@@ -293,8 +294,8 @@ public class Main {
 //         {System.out.println("Nhom nay rat quan trong");}
 //         
 //         else if (group1.accounts.length == 4)
-//         {System.out.println(" Nhom nay la cai cho  :)) ");}
-  
+//         {System.out.println(" Nhom nay la cai cho ");}
+ 
         
 // Question 3 :
 //        	System.out.println(account2.department == null ? "Nhan vien chua co phong ban" : "Phong ban cua nhan vien nay la : " + account2.department.name);
@@ -303,8 +304,78 @@ public class Main {
 // Question 4 :
         	
 //        	System.out.println(account1.position.name == "DEV" ? "Day la Developer" : "Nguoi nay khong phai Developer");
+
+        
+// SWITCH CASE   
+// Question 5 :
+//        System.out.println(" So luong account trong nhom 1");
+//        
+//        if (group1.accounts == null) { System.out.println("Group chua co thanh vien nao tham gia");}
+//        
+//		 int accountingrount = group1.accounts.length;       
+//         switch (accountingrount) {
+//        		
+//        		case 1: System.out.println("Nhom co 1 nhan vien");
+//        		break;
+//        		
+//        		case 2: System.out.println("Nhom co 2 nhan vien");
+//        		break;
+//        		
+//        		case 3: System.out.println("Nhom co 3 nhan vien");
+//        		break;
+//        		
+//        		default: System.out.println("Nhom co nhieu nhan vien");}
+			
+// Question 6:    
+//         System.out.println("So luong nhan vien trong nhom 1");
+//         
+//         if (group1.accounts == null) System.out.println(" Phong nay khong co nhan vien ");
+//         
+//         int accgroup1 = group1.accounts.length;
+//         	switch (accgroup1) {
+//         	
+//         	case 1 : System.out.println("Phong nay co 1 nhan vien");
+//         	break;
+//         	
+//         	case 2 : System.out.println("Phong nay co 2 nhan vien");
+//         	break;
+//         	
+//         	case 3 : System.out.println("Phong nay co 3 nhan vien");
+//         	break;
+//         	
+//         	default : System.out.println("Phong nay co rat nhieu nhan vien");}         	
+         	
+// Question 7:
+//        System.out.println("Cau hoi nay co nhung the loai nao :");
+//        
+//        if (categoryquestion4.name == null ) System.out.println("Cau hoi nay khong co the loai nao");
+//        
+//        int  catequestion = categoryquestion4.questions.length;
+//        	switch (catequestion) {
+//        	
+//        	case 1 : System.out.println("Cau hoi nay co 1 the loai ");
+//        	break;
+//        	
+//        	case 2 : System.out.println("Cau hoi nay co 2 the loai");
+//        	break;
+//        	
+//        	case 3 : System.out.println("Cau hoi nay co 3 the loai");
+//        	break;
+//        	
+//        	default : System.out.println("Cau hoi nay co nhieu the loai");}
+//        		                	        	        	                    
+// Question 8:
+//        
+//        System.out.println("In ra thong tin Account :");
+//        
+//        Account[] Array = { account1, account2, account3 , account4 , account5 };
+//        for (Account account : Array) {
+//        System.out.println("AccountID: " + account.id + "\n" + " Email: " +  account.email + "\n" + "  Name: " + account.fullName);}
+
+
+        
+
         
 	}	
-	
 	
 }
