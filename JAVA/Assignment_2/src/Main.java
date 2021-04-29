@@ -1,4 +1,9 @@
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Locale;
+import java.util.logging.SimpleFormatter;
 
 public class Main {
 //	enum Enum { DEV , Test , Scrum_Master , PM  }	
@@ -371,10 +376,38 @@ public class Main {
 //        Account[] Array = { account1, account2, account3 , account4 , account5 };
 //        for (Account account : Array) {
 //        System.out.println("AccountID: " + account.id + "\n" + " Email: " +  account.email + "\n" + "  Name: " + account.fullName);}
-
+        
+// Exercise 2 (Optional): System out printf :
+// Question 1:        
+//        System.out.printf( "%s %d" , "1 So nguyen =" , 5 );
+     
+// Question 2:       
+//        System.out.printf(Locale.US, "%s  %,d" ,"1 So nguyen =" , 100000000);	
 
         
 
+        
+        
+// Exercise 3 (Optional): Date Format :
+// Question 1:        
+//        System.out.println(exam1.createDate);
+//        
+//        Locale locale = new Locale("vi" , "VN");
+//        DateFormat dateformat = DateFormat.getDateInstance(DateFormat.DEFAULT, locale);
+//        
+//        String date1 = dateformat.format(exam1.createDate);	
+//        System.out.println(date1);
+        
+        
+// Date pattern  :      
+//        System.out.println(exam1.createDate);
+//        
+//		  String pattern = "dd/MM/yyyy HH:mm:ss";
+//		  SimpleDateFormat simpledateformat	= new SimpleDateFormat(pattern);        
+//        
+//		  String date2 = simpledateformat.format(exam1.createDate);	
+//		  System.out.println(date2);
+                             
         
 	}	
 	
