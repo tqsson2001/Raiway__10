@@ -359,12 +359,29 @@ public class Main {
 //        		AV.fullName = "Full name " + i;
 //        		AV.createDate = LocalDate.now();
 //        		AVA2[i] = AV;
-//System.out.println( "Thông tin Account " + i + " Email: " + AVA2[i].email + " UserName: " + AVA2[i].userName 
+//		System.out.println( "Thông tin Account " + i + " Email: " + AVA2[i].email + " UserName: " + AVA2[i].userName 
 //		+ " FullName: " + AVA2[i].fullName + " CreateDate: " + AVA2[i].createDate);}
 
+//        Exercise 3(Optional): Boxing & Unboxing
+        
+//        Question 1: Khởi tạo lương có datatype là Integer có giá trị bằng 5000.
 
+//        Integer salary = 5000;
+//        System.out.printf("%2.2f", (float) salary);
         
+//        Question 2: Khai báo 1 String có value = "1234567"      
         
+//        String s = "1234567";
+//        int i = Integer.parseInt(s);
+//        System.out.println(i);
+        
+//        Question 3: Khởi tạo 1 số Integer có value là chữ "1234567"
+        
+//        Integer i = 1234567;
+//        int i1 = i.intValue();
+//        System.out.println(i1);
+        
+//        Exercise 4: String
 	}	
 	
 	
