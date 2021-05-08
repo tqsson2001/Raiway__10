@@ -7,11 +7,13 @@ public class Group {
 	Date		date;
     Account[]	accounts;
     
-    public Group ( int id , String name , Account account ) {
+    public Group ( int id , String name , Account[] account ) {
     	this.id = id ;
     	this.name = name ;
-    	this.account = account ;
-    	
-    	
-    }
+    	this.accounts = account ;}
+
+	public Group(Date date) {
+		super();
+		this.date = date;}   	
+    
 }

@@ -15,9 +15,9 @@ public class Account {
 		this.email = email ;
 		this.userName = userName ; 
 		this.firstName = firstName ;
-		this.fullName = firstName + userName ;		
-	}
-	
-	public Account ( Date createDate) {
-		this.createDate = createDate ;	}
+		this.fullName = firstName + userName ;	}	
+		
+	public Account ( Date createDate ) {
+		this.createDate = createDate;
+	}	
 }
