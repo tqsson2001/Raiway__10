@@ -12,9 +12,8 @@ public class Main {
 		
 		
 		
-HighSchoolStudent highSchoolStudent1 = new HighSchoolStudent ( 1 , "Name" , "Chuyen van" , "Dai hoc cong nghiep");
-		System.out.println("ID :" + highSchoolStudent1.getid() + "\nTen: " + highSchoolStudent1.getname() + "\nMon Hoc :" + highSchoolStudent1.getClass() + "\nDai Hoc: " + highSchoolStudent1.getdesiredUniversity() );
-		
+//HighSchoolStudent highSchoolStudent1 = new HighSchoolStudent ( 1 , "Name" , "Chuyen van" , "Dai hoc cong nghiep");
+//		System.out.println("ID :" + highSchoolStudent1.getid() + "\nTen: " + highSchoolStudent1.getname() + "\nMon Hoc :" + highSchoolStudent1.getClass() + "\nDai Hoc: " + highSchoolStudent1.getdesiredUniversity() );
 		
 	}
 
