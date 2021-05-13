@@ -1,10 +1,14 @@
-package com.vti.testingsytem.frontend;
+	package com.vti.testingsytem.frontend;
+
 
 import java.util.Iterator;
 
 import com.vti.testingsytem.entity.Group_1;
 import com.vti.testingsytem.entity.Group_2;
 import com.vti.testingsytem.entity.Group_3;
+import com.vti.testingsytem.entity.HinhChuNhat;
+import com.vti.testingsytem.entity.HinhVuong;
+import com.vti.testingsytem.entity.MyMath;
 import com.vti.testingsytem.entity.Student;
 
 public class Main {
@@ -12,6 +16,8 @@ public class Main {
 		
 // Exercise 2 : Polymorphism
 //		Question 1 : Interface Management
+
+//		A) Tạo 10 học sinh, chia thành 3 nhóm :
 		
 		Student[] students = new Student[10];
 		
@@ -28,23 +34,42 @@ public class Main {
 		students[8] = new Group_3( 9 , "Student Nguyen Van W " , 3);
 		students[9] = new Group_3( 10, "Student Nguyen Van E " , 3);
 		
-//		b) Kêu gọi cả lớp điểm danh :
+		
+		
+		
+// @Overload
+//		Group_1 student11 = (Group_1) students[1];
+		
+//		
+//		int trave = student1.sum(10, 20);
+//		
+//		System.out.println(trave);
+// 
+//		float trave2 = student1.sum(2.5, 1.8);
+//		
+//		System.out.println(trave2);
+//	******	
+		
+		
+		
+//		B) Kêu gọi cả lớp điểm danh :
 		
 //		for (Student student : students) {
 //			System.out.println(student.getName());
 //			student.diemDanh();
 //		}
 		
-//		c) Gọi nhóm 1 đi học bài :
+//		C) Gọi nhóm 1 đi học bài :
 		
 //		for (Student student : students) {
 //			 if (student instanceof Group_1) {
 //				 student.hocBai();
+				 
 //				 System.out.println(student.getName() + " Group_1 ");
 //			}
 //		}
 		
-//		d) Gọi nhóm 2 đi dọn vệ sinh :
+//		D) Gọi nhóm 2 đi dọn vệ sinh :
 		
 //		for (Student student : students) {
 //			if (student instanceof Group_2) {
@@ -52,5 +77,34 @@ public class Main {
 //			}
 //		}
 		
+//		Question 4 :		
+		
+//			MyMath mymath = new MyMath ( 1  , " Name ");
+//		
+//			int trave3 = mymath.sum( 1 , 2);
+//			System.out.println(trave3);	
+	
+		
+//		HinhChuNhat hcn = new HinhChuNhat();
+//		
+//		float chuvihinhchunhat = hcn.Tinhchuvi(5, 7);
+//		System.out.println("Chu Vi Hinh Chu Nhat : " + chuvihinhchunhat);
+//		
+//		System.out.println();
+//		
+//		float dientichchunhat = hcn.Tinhdientich( 5 , 7);
+//		System.out.println("Dien Tich Hinh Chu Nhat : " + dientichchunhat);
+//		
+//		System.out.println();
+//		
+//		HinhVuong hv = new HinhVuong();
+//		
+//		float chuvihinhvuong = hv.Tinhchuvi( 3 ,8 );
+//		System.out.println("Chu Vi Hinh Vuong : " + chuvihinhvuong);
+//		
+//		System.out.println();
+//		
+//		float dientichhinhvuong = hv.Tinhdientich( 3, 8 );
+//		System.out.println("Dien Tich Hinh Vuong : " + dientichchunhat);
 	}
 }
