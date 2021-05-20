@@ -1,6 +1,6 @@
 package com.vti.entity;
 
-public class Truongdaihoc extends Hoc_Sinh {
+public class Truongdaihoc extends HocSinh {
 	
 	
 	public Truongdaihoc(int id, String name) {

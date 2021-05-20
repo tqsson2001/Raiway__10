@@ -291,10 +291,10 @@ public class Main {
 //        
 //        int luonga3 = (int) luonga1;
 //        int luonga4 = (int) luonga2;
-        
-        //System.out.println("La :" + luonga3);
-        
-        //System.out.println("La :" + luonga4);
+//       
+//			System.out.println("La :" + luonga3);
+//        
+//			System.out.println("La :" + luonga4);
         
 // Question 2: Lấy ngẫu nhiên 1 số có 5 chữ số (những số dưới 5 chữ số thì sẽ thêm có số 0 ở đầu cho đủ 5 chữ số)
 //        int a = new Random().nextInt(99999);
@@ -322,10 +322,8 @@ public class Main {
 //        int a = new Random().nextInt(99999);
 //        String temp = "" + a;
 //      
-//        switch(temp.length()) {}
-//
-//        String b = String.valueOf(a);
-//        System.out.println("Hai số cuối: " + b.substring(3));
+//        System.out.println("Hai số cuối: " + temp.substring(3));
+//        System.out.println("a = " + a);
         		       		
 //    Question 4 : Viết 1 method nhập vào 2 số nguyên a và b và trả về thương của chúng.
      

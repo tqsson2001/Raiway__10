@@ -99,12 +99,12 @@ public class Main {
 //		
 //		HinhVuong hv = new HinhVuong();
 //		
-//		float chuvihinhvuong = hv.Tinhchuvi( 3 ,8 );
+//		float chuvihinhvuong = hv.Tinhchuvi( 8 , 8 );
 //		System.out.println("Chu Vi Hinh Vuong : " + chuvihinhvuong);
 //		
 //		System.out.println();
 //		
-//		float dientichhinhvuong = hv.Tinhdientich( 3, 8 );
+//		float dientichhinhvuong = hv.Tinhdientich( 8 , 8 );
 //		System.out.println("Dien Tich Hinh Vuong : " + dientichchunhat);
 	}
 }
